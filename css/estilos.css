@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: auto;
+    zoom: 0%;
+    
+}
+
+/*.grantitulo{
+    
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 0%;
+    
+    
+
+    
+
+}*/
+
+
+/*
+.title{
+    display: flex;
+    z-index: 3;
+    
+}*/
+.flex-container {
+    z-index: 2;
+    display: flex;
+    background-color: green transparent;
+    height: 25%;
+    position: fixed;
+    margin: auto;
+
+
+}
+.caja{
+    display: flex;
+    z-index: 1;
+    position: sticky;
+    align-content: space-between;
+    padding: 10% 25%;
+    background-color: rgb(247, 226, 244) ;
+    opacity: 0.7;
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    
+   
+    
+}    
+/*quitando el subrayado de los enlaces*/
+.caja :link, .caja :visited, .caja :active {
+    text-decoration:none;
+    color: darkolivegreen
+    
+}
+.caja :hover{
+    font-size: 101%;
+    color:rgb(17, 90, 17)
+    
+}
+
+
+.fondo {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+
+}
+.fondo ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.fondo li {
+
+    list-style: none;
+    min-height: 100%;
+    max-width: auto;
+
+}
+
+.fondo img{
+    position: relative;
+    z-index: -3;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    min-zoom: 100%;
+
+}
+
+@keyframes cambio{
+
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;} 
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;} 
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;} 
+    100% { margin-left: -300%;}
+}
+
+/*h1{
+    size: 100px;
+    color: rgb(105, 105, 19);
+  
+}*/
+
+body{
+    background-color: rgba(3, 46, 6, 0.83);
+}
