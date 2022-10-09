@@ -119,3 +119,34 @@
 body{
     background-color: rgba(3, 46, 6, 0.83);
 }
+
+/*para la reservacion*/
+
+.contenedortabla{
+    display: flex;
+    position: absolute;   
+    
+}
+
+
+.reservacion{
+    display: flex;
+    position: relative;
+
+}
+
+.planillaregistro{
+
+    display: flex;
+    position: relative;
+    width: 40%;
+    min-width: 40%;
+    height: 5%;
+    padding: 13% 10%;
+    color: olive;
+    background-color: black;
+    opacity: .7;
+    font-size: 132%;
+
+}
+
