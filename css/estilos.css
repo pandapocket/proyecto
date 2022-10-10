@@ -141,12 +141,91 @@ body{
     position: relative;
     width: 40%;
     min-width: 40%;
-    height: 5%;
-    padding: 13% 10%;
+    max-width: 41%;
+    height: 2%;
+    padding: 13% 10% 13% 5%;
     color: olive;
     background-color: black;
     opacity: .7;
     font-size: 132%;
 
 }
+/*
+.grid-container{
 
+    display: grid;
+    margin: auto;
+    grid-template-columns: 10px 10px;
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+    
+    
+
+
+
+
+}
+
+ul.comidas{
+    
+    list-style-type: none;
+    background-color: rgba(144, 58, 58, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+
+}
+ul.a{
+    list-style-type: square;
+}*/
+
+.menu1{
+    display: flex;
+    margin: auto;
+    color: olive;
+
+}
+
+#columnas1{
+    padding: 2%;
+    margin: auto;
+    width: auto;
+    min-width: 10%;
+    max-width: 40%;
+    border: 2px solid black;
+    display: inline-flexbox;
+    column-count:  2;
+    column-gap: 10px;
+    column-rule: 8px ridge gray;
+    list-style: none;
+    text-align: center;
+    background-color: beige;
+    
+ }
+
+ .menu2{
+    display: flex;
+    margin: auto;
+    color: olive;
+
+}
+
+#columnas2{
+    padding: 2%;
+    margin: auto;
+    width: auto;
+    min-width: 10%;
+    max-width: 40%;
+    border: 2px solid black;
+    display: inline-flexbox;
+    column-count:  2;
+    column-gap: 10px;
+    column-rule: 8px ridge gray;
+    list-style: none;
+    text-align: center;
+    background-color: beige;
+    
+ }
+ 
+ 
